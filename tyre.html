@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./public/css/tyre.css"/>
+    <title>tyre clinc</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+          <div class="logo">
+            <a href="#"><img src="../img/dock-logo.png"/></a>
+          </div>
+          <ul class="nav-list">
+            <li>
+              <a href="#">Car Clinic</a>
+            </li>
+
+          </ul>
+        </nav>
+    </header>
+
+    <form class="tyre  flex" id="formId" name="tyre" action="#" onsubmit="return Validate();" method="POST">
+    
+        
+        <h1 class="title">Tyre purchase</h1>
+        
+         <!-- <button class="button"><a href="signup.html">Signup</a></button>
+         <button class="button"><a href="log.html">Login</a></button> -->
+
+
+        <div class="main">
+            <label for="firstname">First name</label>
+            <input type="text" name="firstname"id="firstname" placeholder="firstname" class="input-field" >
+            <span  id="firstNameError"></span>
+
+        </div>
+
+        <div class="main">
+            <label for="lastname">Last name</label>
+            <input type="text"  name="lastname" id="lastname" placeholder="lastname" class="input-field">
+            <span id="lastNameError"></span>
+
+        </div>
+
+        <div class="  main">
+            <label for="contacts">Contacts</label>
+            <input type="number" placeholder="number" class="input-field">
+            <span id="contactsError"></span>
+        </div>
+
+        <div class="main">
+            <label for="date">Date</label>
+            <input type="date"  class="input-field">
+            <span id="dateError"></span>
+        </div>
+
+        <!-- <div class=" col-12 main">
+            <label for=""></label>
+            <select name="tyre" id="tyre" class="input-field">
+              <option value="select">Select</option> 
+              <option value="male">New</option>
+              <option value="female">Used</option>
+            </select>
+            <span id="tyreError"></span>
+        </div>  
+ -->
+
+        <div class="  main">
+            <label for="model">Car Model</label>
+            <input type="model" placeholder="model" class="input-field">
+            <span id="modelError"></span>
+        </div>
+
+        <div class="  main">
+            <label for="size">Tyre Size</label>
+            <input type="size" placeholder="size" class="input-field">
+            <span id="sizeError"></span>
+        </div>
+        <div class="  main">
+            <label for="contacts">Tyre Make</label>
+            <input type="make" placeholder="number" class="input-field">
+            <span id="contactsError"></span>
+        </div>
+        <div class="  main">
+            <label for="tyre-number">Number of tyres</label>
+            <input type="number"  class="input-field">
+            <span id="tyreError"></span>
+        </div>
+
+        <script src="../js/tyre.js"></script>
+ 
+        <button class="button">Submit</button>
+       </form>
+      
+</body>
+</html>

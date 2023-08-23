@@ -20,3 +20,19 @@ body{
   background-size: cover;
   background-position: center;
 }
+
+.navbar navbar-expand-lg bg-body-tertiary{
+  background-color: aquamarine;
+  color: aqua;
+}
+
+.img-pg img{
+  width: 200px;
+  padding: 50px;
+  object-position: bottom right;
+  
+}
+
+.dockville{
+ color: aqua;
+}

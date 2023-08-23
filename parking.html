@@ -166,7 +166,180 @@
                 <li class="list-group-item">Night</li>
                 <li class="list-group-item">3 hours</li>
               </ul> -->
-              <a href="truck.html" class="card-link">Book Now</a>
+              <!-- <a href="truck.html" class="card-link">Book Now</a> -->
+              <!-- modal popup begins from here -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Launch demo modal
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Modal title
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form
+                        id="formId"
+                        name="truck"
+                        action="#"
+                        onsubmit="return Validate()"
+                        method="POST"
+                      >
+                        <div class="booking">
+                          <h3>Truck</h3>
+                          <div class="row">
+                            <div class="col">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="First name"
+                                id="firstname"
+                                name="firstname"
+                              />
+                              <span id="firstnameError"></span>
+                            </div>
+                            <div class="col">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Last name"
+                                aria-label="Last name"
+                                id="lastname"
+                                name="lastname"
+                              />
+                              <span id="lastnameError"></span>
+                            </div>
+                          </div>
+                          <div class="model">
+                            <label
+                              class="model"
+                              id="inputGroup-sizing-sm"
+                              for="model"
+                              >Car Model</label
+                            >
+                            <span id="modelError"></span>
+                            <input
+                              type="text"
+                              id="model"
+                              name="model"
+                              class="form-control"
+                            />
+                          </div>
+                          <div class="car-number">
+                            <span id="numberPlateError"></span>
+                            <label
+                              class="p-"
+                              for="numberplate"
+                              id="ingroup-sizing"
+                              >Car Number Plate</label
+                            >
+                            <input
+                              type="text"
+                              id="numberplate"
+                              name="numberplate"
+                              class="form-control"
+                            />
+                          </div>
+                          <div class="car-color">
+                            <span id="colorError"></span>
+                            <label class="p-" id="ingroup-sizing"
+                              >Car Color</label
+                            >
+                            <input
+                              type="text"
+                              id="color"
+                              name="color"
+                              class="form-control"
+                            />
+                          </div>
+                          <div class="date">
+                            <span id="dateError"></span>
+                            <label class="date" id="ingroupsizing">Date</label>
+                            <input
+                              type="date"
+                              id="date"
+                              name="date"
+                              class="form-control"
+                            />
+                          </div>
+                          <div class="time">
+                            <span id="timeError"></span>
+                            <label class="color" id="ingroup"
+                              >Time of arrival</label
+                            >
+                            <input
+                              type="time"
+                              id="time"
+                              name="time"
+                              class="form-control"
+                            />
+                          </div>
+
+                          <div class="slot">
+                            <span id="slotnumberError"></span>
+                            <label class="date" id="slot-sizing"
+                              >Slot Number</label
+                            >
+                            <input
+                              type="number"
+                              id="slotnumber"
+                              name="slotnumber"
+                              class="form-control"
+                            />
+                          </div>
+                          <button type="submit" onsubmit="services.html">
+                            Sign Up
+                          </button>
+
+                          <!-- <div class="form-group">
+        <label for="national-id">National ID Number:</label>
+        <input type="text" id="national-id" name="national-id" />
+      </div> -->
+                          <!-- <div class="nin">
+        <span class="nin" id="ninError">NIN</span>
+        <input type="" class="nin" name="ninname" />
+      </div> -->
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal popup ends here -->
             </div>
           </div>
         </div>

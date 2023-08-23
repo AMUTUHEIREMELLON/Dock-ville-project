@@ -1,9 +1,13 @@
 body{
   background-image: url('/public/images/spla.avif');
-  height: 100vh;
+  height: 400px;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 
+.card-group img{
+height: 400px;
+width: 500px;
+}

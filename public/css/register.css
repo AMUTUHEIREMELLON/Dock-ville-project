@@ -29,10 +29,10 @@ h1{
  
 
 .container {
-  max-width: 400px;
+  max-width: 700px;
   margin: 8px auto;
-  padding: 20px;
-  background-color: grey;
+  padding: 50px;
+  background-color: antiquewhite;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -95,53 +95,4 @@ body{
   background-size: cover;
   background-position: center;
 }
-
-/* .parking{
-  width:50px;
-  height: 50%;
-  border-radius: 5px;
-  padding: 0px;
-
-  
-}
-
-.clinic {
-  width: 1px;
-  height: 100%;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-
-.battery{
-  width: 5px;
-  height: 10%;
-  border-radius: 5px;
-  padding: 0px;
-
-}
-
-.services{
-  padding: 0;
-  margin: 2px;
-  background-color: plum;
-}
- */
-
-
-
-
-
-
-
-
-
-.services img{
-  width: 500px;
-
-
-}
-
-
-                                  
 
